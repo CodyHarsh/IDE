@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../Landing//Gilroy-Bold");
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../Landing/Gilroy-Regular");
+}
+
+.tilty {
+  font-family: "Gilroy-Bold", "Space Mono", monospace;
+}
+.getstarted-dashboard {
+  background-color: #acb6e52a;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.dashboard-sheetpage {
+  background-image: url(../Dashboard/images/Vector-1.svg);
+  background: #acb6e52a;
+  background: -webkit-linear-gradient(-135deg, #ffffff, #acb6e5b9);
+  background: linear-gradient(-135deg, #ffffff, #acb6e5b2);
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  padding: 50px 0px;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.cols {
+  /* height:100vh; */
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.rows {
+  padding-top: 90px;
+}
+.rows1 {
+  padding-top: 100px;
+  border: 0.5px solid #f2f2f2;
+  border-right: none;
+  padding: 30px;
+  height: 500px;
+}
+.rows2 {
+  padding-top: 100px;
+  height: 500px;
+
+  border: 0.5px solid #f2f2f2;
+  padding: 30px;
+}
+.greet {
+  font-family: "Gilroy-Bold", "Space Mono", monospace;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  height: 240px;
+}
+.des-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  font-family: "Gilroy-Bold", "Space Mono", monospace;
+}
+.des-text {
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 20px;
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1637685451 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1637685451 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1637685451 .shape-fill {
+  fill: #b8cffa;
+}

@@ -1,0 +1,67 @@
+/* NavBar Styling Here */
+.color-nav {
+  height: 5rem !important;
+}
+
+.navbar-collapse {
+  width: 100% !important;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+.nav_logo {
+  width: 15rem;
+  height: 100%;
+}
+.navText {
+  font-family: "Gilroy-Bold", sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* color:white !impoWe rtant; */
+}
+
+@media (min-width: 991px) {
+  .color-nav {
+    background-color: transparent !important;
+    height: 5rem !important;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+}
+@media only screen and (max-width: 990px) {
+  .nav_logo {
+    width: 5rem;
+  }
+  .color-nav {
+    background-color: transparent !important;
+    height: 5rem !important;
+    margin: 0px;
+  }
+  .navbar > .container {
+    -webkit-backdrop-filter: blur(8px) !important;
+    backdrop-filter: blur(8px) !important;
+  }
+}
+
+.navbar-btn {
+  font-size: 1rem;
+  font-family: "Gilroy-Bold";
+  background-color: transparent !important;
+  color: #000;
+  font-weight: 500;
+  border-radius: 0.5rem !important;
+  border: 2px solid rgb(0, 0, 123);
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-btn:hover {
+  color: #0b5ed7;
+}

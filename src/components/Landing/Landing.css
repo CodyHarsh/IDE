@@ -1,0 +1,21 @@
+.desc-text {
+  font-family: "Space Mono", monospace;
+  font-size: 36px;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 600;
+  /* margin: 2rem; */
+}
+
+.land-button {
+  margin: 2rem 0;
+  font-family: "Space Mono", monospace;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 768px) {
+  .Landing-desc {
+    padding: 5rem 0;
+    height: unset;
+  }
+}
