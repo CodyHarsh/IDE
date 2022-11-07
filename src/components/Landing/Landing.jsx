@@ -242,7 +242,7 @@ export default function Features() {
           className="lastpage"
         >
           <h1 style={{ color: "#000", textAlign: "center" }}>
-            Hi, if you are able to read this, it means you suck at coding :"){" "}
+            Hi, if you are able to read this, it means you have explored this Website. Now Just Click On Get Started button and start coding :"){" "}
             <br />
             So start now !!
           </h1>
