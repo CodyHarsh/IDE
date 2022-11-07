@@ -115,7 +115,7 @@
 }
 
 .animated-gradient-text-fg-1 {
-  animation: smoooth1 8s infinite;
+  animation: smoooth1 2s infinite;
 }
 
 .animated-gradient-fg-2 {
@@ -125,7 +125,7 @@
 }
 
 .animated-gradient-text-fg-2 {
-  animation: smoooth2 8s infinite;
+  animation: smoooth2 2s infinite;
 }
 
 .animated-gradient-fg-3 {
@@ -135,7 +135,7 @@
 }
 
 .animated-gradient-text-fg-3 {
-  animation: smoooth3 8s infinite;
+  animation: smoooth3 2s infinite;
 }
 
 @keyframes smoooth1 {
