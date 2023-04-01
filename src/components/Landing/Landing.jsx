@@ -57,7 +57,7 @@ export default function Features() {
 
               <span className="animated-gradient-bg-3 animated-gradient-text-bg-3">
                 <span className="animated-gradient-fg-3 animated-gradient-text-fg-3">
-                  Bro Code
+                  Code Champs
                 </span>
               </span>
             </p>
@@ -75,7 +75,7 @@ export default function Features() {
 
         <ParallaxLayer
           sticky={{ start: 1.2, end: 3.2 }}
-          className="Bro Code"
+          className="Code Champs"
           style={{
             ...alignCenter,
             justifyContent: "flex-start",
@@ -83,7 +83,7 @@ export default function Features() {
           }}
         >
           <div className="parallax-card sticky">
-            <p className="card-text-head">Bro Code</p>
+            <p className="card-text-head">Code Champs</p>
             <p className="card-text">by Chandigarh University</p>
           </div>
         </ParallaxLayer>
