@@ -100,7 +100,7 @@
 }
 
 .animated-gradient-bg-3::before {
-  content: "Champs";
+  content: "";
   color: black;
   position: absolute;
   top: 0;
